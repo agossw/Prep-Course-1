@@ -28,6 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+    return str
   
 }
 
@@ -61,7 +62,7 @@ function divide(x, y) {
   // Tu código:
   
   var division = x / y
-  return divison 
+  return division 
 
 }
 
@@ -116,14 +117,14 @@ function mayorQueCincuenta(num) {
     return true
   }
   else {
-    false
+   return false
   }
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+
   return x % y; 
 }
 
@@ -137,7 +138,7 @@ function esPar(num) {
   }
 
   else {
-    false
+   return false
   }
 }
 
@@ -151,7 +152,7 @@ function esImpar(num) {
   }
 
   else {
-    false
+   return false
   }
 }
 
